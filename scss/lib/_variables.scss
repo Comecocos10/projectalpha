@@ -1,9 +1,9 @@
 //SPACES
 
 $unit: 6px;
-$spacelittle: 18px;
-$space: 36px;
-$spacebig: 48px;
+$spacelittle: $unit * 3;
+$space: $unit * 6;
+$spacebig: $unit * 8;
 
 //COLORS
     $white: #FFFFFF;
@@ -48,20 +48,18 @@ $spacebig: 48px;
 //TIPOGRAPHY
 
     $tittle: 'Montserrat Alternates', sans-serif;
-    $paragraph: 'Nunito', sans-serif;
+    $paragraph: 'Raleway', sans-serif;
 
-    //MONTSERRAT-WEIGHT
-    $h1: 700;
-    $h1-medium: 300;
-    $h2: 400;
-    $h2-bold: 700;
+    //MONTSERRAT-SIZE
+    $h1: 64px;
+    $h2: 36px;
+    $h3: 30px;
 
-    //NUNITO-WEIGHT
-    $p-big: 400;
-    $p-big-bold: 800;
-    $p: 400;
-    $p-bold: 800;
-    $p-little: 600;
-    $p-little-bold: 800;
+    //RALEWAY-WEIGHT
+    $p-big: 24px;
+    $p: 18px;
+    $p-little: 12px;
 
-    
+    //WEIGHT
+    $regular: 400;
+    $bold: 700;
