@@ -1,7 +1,20 @@
-html {
-  font-size: 100%;
+.photo {
+  background-image: url(../../img/Me.png);
+  background-color: #F0F1F4;
+  width: 210px;
+  height: 440px;
+  background-size: cover;
 }
 
-.avatar {
-  background-image: url(/projectalpha/img/Me.png);
+.titel {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+}
+
+.text-header {
+  margin: 3px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }

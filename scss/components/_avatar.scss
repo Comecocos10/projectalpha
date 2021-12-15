@@ -1,3 +1,8 @@
-.avatar{
-    background-image: url(/projectalpha/img/Me.png);
+.photo {
+     background-image: url(../../img/Me.png);
+     background-color: $light-gray;
+     width: 210px;
+     height: 440px;
+     background-size: cover;
+
 }
