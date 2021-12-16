@@ -1,49 +1,51 @@
 //SPACES
 
 $unit: 6px;
-$spacelittle: $unit * 3;
-$space: $unit * 6;
-$spacebig: $unit * 8;
+$spacelittle: $unit * 3; //18//
+$space: $unit * 6; //36//
+$spacebig: $unit * 8; //48//
 
 //COLORS
-    $white: #FFFFFF;
-    $black: #252732;
 
     //yellow
-    $ultradark-yellow: #8F6400;
-    $dark-yellow: #F5AB00;
+    $yellow-ultradark: #8F6400;
+    $yellow-dark: #F5AB00;
     $yellow: #FFCE5C;
-    $light-yellow: #FFEDC2;
-    $ultralight-yellow: #FFF3D6;
+    $yellow-light: #FFEDC2;
+    $yellow-ultralight: #FFF3D6;
 
      //red
-    $ultradark-red: #5E081C;
-    $dark-red: #BC1038;
+    $red-ultradark: #5E081C;
+    $red-dark: #BC1038;
     $red: #EF436B;
-    $light-red: #F7A1B5;
-    $ultralight-red: #FDE8ED;
+    $red-light: #F7A1B5;
+    $red-ultralight: #FDE8ED;
 
      //green
-    $ultradark-green: #024533;
-    $dark-green: #037758;
+    $green-ultradark: #024533;
+    $green-dark: #037758;
     $green: #06DBA2;
-    $light-green: #4CFACC;
-    $ultralight-green: #B0FDE8;
+    $green-light: #4CFACC;
+    $green-ultralight: #B0FDE8;
 
      //blue
-    $ultradark-blue: #0B3F47;
-    $dark-blue: #126773;
+    $blue-ultradark: #0B3F47;
+    $blue-dark: #126773;
     $blue: #198F9F;
-    $light-blue: #69D8E7;
-    $ultralight-blue: #C1EFF5;
+    $blue-light: #69D8E7;
+    $blue-ultralight: #C1EFF5;
 
      //gray
-    $ultradark-gray: #727897;
-    $dark-gray: #ADB0C2;
+    $gray-ultradark: #727897;
+    $gray-dark: #ADB0C2;
     $gray: #E8E9EE;
-    $light-gray: #F0F1F4;
-    $ultralight-gray: $white;
+    $gray-light: #F0F1F4;
 
+    //Basics
+    $white: $gray-light;
+    $black: #252732;
+    
+    
 
 //TIPOGRAPHY
 

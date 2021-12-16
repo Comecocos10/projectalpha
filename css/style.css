@@ -1,20 +1,71 @@
-.photo {
-  background-image: url(../../img/Me.png);
-  background-color: #F0F1F4;
-  width: 210px;
-  height: 440px;
-  background-size: cover;
+.color-white {
+  color: #F0F1F4;
 }
 
-.titel {
+.color-black {
+  color: #252732;
+}
+
+.color-bg-white {
+  background-color: #F0F1F4;
+}
+
+.color-bg-black {
+  background-color: #252732;
+}
+
+.tipo-Montserrat {
   font-family: "Montserrat Alternates", sans-serif;
+}
+
+.tipo-Raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.photo, .shadow {
+  width: 210px;
+  height: 450px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  position: relative;
+  display: block;
+}
+
+.photo {
+  background-image: url(../../img/Me.png);
+}
+
+.shadow {
+  background-image: url(../../iconos/shadow.svg);
+  bottom: -8%;
+  left: 8%;
+  -webkit-filter: blur(10px);
+          filter: blur(10px);
+}
+
+.title {
   font-size: 64px;
   font-weight: 700;
 }
 
 .text-header {
   margin: 3px;
-  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 400;
+}
+
+.tittle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
