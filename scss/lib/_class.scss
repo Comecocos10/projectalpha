@@ -1,0 +1,28 @@
+//CLASS BASIC COLOR//
+
+    $basic-colors: (
+    'white':      $white,
+    'black':      $black,
+    );
+    @each $colorname, $value in $basic-colors {
+        .color-#{$colorname} {
+            color: $value;
+        }
+    }
+    @each $colorname, $value in $basic-colors {
+        .color-bg-#{$colorname} {
+            background-color: $value;
+        }
+    }
+
+
+    $font-family: (
+        'Montserrat':       $tittle,
+        'Raleway':      $paragraph,
+        );
+    @each $tiponame, $value in $font-family {
+        .tipo-#{$tiponame} {
+            font-family: $value;
+        }
+    }
+
