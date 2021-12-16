@@ -1,8 +1,26 @@
+.photo, .shadow{
+     width: 210px;
+     height: 450px;
+     background-size: cover;
+     display: flex;
+     flex-direction: row;
+     
+     display: block;
+}
+
+
 .photo {
      background-image: url(../../img/Me.png);
-     background-color: $light-gray;
-     width: 210px;
-     height: 440px;
-     background-size: cover;
+     position: relative;
 
+}
+
+.shadow {
+     background-image: url(../../iconos/shadow.svg);
+     position: absolute;
+     bottom: -8%;
+     left: 8%;
+     filter: blur(10px);
+     
+     
 }
