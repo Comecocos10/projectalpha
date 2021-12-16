@@ -14,28 +14,28 @@ $spacebig: $unit * 8; //48//
     $yellow-light: #FFEDC2;
     $yellow-ultralight: #FFF3D6;
 
-     //red
+    //red
     $red-ultradark: #5E081C;
     $red-dark: #BC1038;
     $red: #EF436B;
     $red-light: #F7A1B5;
     $red-ultralight: #FDE8ED;
 
-     //green
+    //green
     $green-ultradark: #024533;
     $green-dark: #037758;
     $green: #06DBA2;
     $green-light: #4CFACC;
     $green-ultralight: #B0FDE8;
 
-     //blue
+    //blue
     $blue-ultradark: #0B3F47;
     $blue-dark: #126773;
     $blue: #198F9F;
     $blue-light: #69D8E7;
     $blue-ultralight: #C1EFF5;
 
-     //gray
+    //gray
     $gray-ultradark: #727897;
     $gray-dark: #ADB0C2;
     $gray: #E8E9EE;
@@ -44,9 +44,10 @@ $spacebig: $unit * 8; //48//
     //Basics
     $white: $gray-light;
     $black: #252732;
-    
-    
 
+    //Degradado
+    $gradient: linear-gradient(90deg, #FFF3D6 5%, #FDE8ED 45%, #B0FDE8 75%, #C1EFF5)90%;
+    
 //TIPOGRAPHY
 
     $tittle: 'Montserrat Alternates', sans-serif;
