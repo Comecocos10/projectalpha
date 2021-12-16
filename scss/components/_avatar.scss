@@ -1,11 +1,15 @@
+.image-header{
+     transform: translate(-18px, 18px);
+     height: 530px;
+}
+
 .photo, .shadow{
      width: 210px;
      height: 450px;
      background-size: cover;
      display: flex;
      flex-direction: row;
-     
-     display: block;
+     flex-wrap: wrap;
 }
 
 
@@ -16,11 +20,8 @@
 }
 
 .shadow {
-     background-image: url(../../iconos/shadow.svg);
+     background-image: url(../../img/Sombra.png);
      position: absolute;
-     bottom: -8%;
-     left: 8%;
      filter: blur(10px);
-     
-     
+     transform: translate(6px, 24px);
 }

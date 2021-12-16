@@ -22,6 +22,12 @@
   font-family: "Raleway", sans-serif;
 }
 
+.image-header {
+  -webkit-transform: translate(-18px, 18px);
+          transform: translate(-18px, 18px);
+  height: 530px;
+}
+
 .photo, .shadow {
   width: 210px;
   height: 450px;
@@ -33,29 +39,37 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  position: relative;
-  display: block;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .photo {
   background-image: url(../../img/Me.png);
+  position: relative;
 }
 
 .shadow {
-  background-image: url(../../iconos/shadow.svg);
-  bottom: -8%;
-  left: 8%;
+  background-image: url(../../img/Sombra.png);
+  position: absolute;
   -webkit-filter: blur(10px);
           filter: blur(10px);
+  -webkit-transform: translate(6px, 24px);
+          transform: translate(6px, 24px);
+}
+
+.title, .paragraph-header {
+  width: 225px;
+  height: auto;
 }
 
 .title {
   font-size: 64px;
   font-weight: 700;
+  margin: 0 0 0 0;
 }
 
-.text-header {
-  margin: 3px;
+.paragraph-header {
+  margin: 18px 6px 0 0;
   font-size: 18px;
   font-weight: 400;
 }
@@ -68,4 +82,24 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: 100%;
+}
+
+html {
+  font-size: 100%;
+  max-width: 428px;
+}
+
+body {
+  margin: 12px;
+}
+
+header {
+  margin-top: 6px;
+}
+
+.darkmode {
+  background-color: #E8E9EE;
+  height: 46px;
+  width: 46px;
 }
