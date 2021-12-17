@@ -1,15 +1,14 @@
 .image-header{
-     transform: translate(-18px, 18px);
-     height: 530px;
+     transform: translate(-12px, 42px);
+     padding-left: 6px;
+     display: flex;
+     justify-content: center;
 }
 
 .photo, .shadow{
-     width: 210px;
-     height: 450px;
-     background-size: cover;
-     display: flex;
-     flex-direction: row;
-     flex-wrap: wrap;
+     width: 180px;
+     height: 390px;
+     background-size: cover;     
 }
 
 

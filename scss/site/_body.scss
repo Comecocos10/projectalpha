@@ -1,20 +1,18 @@
 //BODY
+* {
+    margin: 0 0 0 0;
+}
 
 html  {
   font-size: 100%;
-  max-width: 428px;
 }
 
 body{
-    margin: 12px;
+    padding: 12px;
+    overflow: hidden;
 }
 
 header{
     margin-top: 6px;
 }
 
-.darkmode{
-    background-color: $gray;
-    height: 46px;
-    width: 46px;
-}

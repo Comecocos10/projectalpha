@@ -46,7 +46,7 @@ $spacebig: $unit * 8; //48//
     $black: #252732;
 
     //Degradado
-    $gradient: linear-gradient(90deg, #FFF3D6 5%, #FDE8ED 45%, #B0FDE8 75%, #C1EFF5)90%;
+    $gradient: linear-gradient(90deg, $yellow-light 5%, $red-light 35%, $green-light 75%, $blue-light 90%);
     
 //TIPOGRAPHY
 

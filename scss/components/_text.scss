@@ -1,16 +1,28 @@
-.title, .paragraph-header{
-    width: 225px;
+.text-header{
+    padding: 0 0 0 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.h1, .paragraph-header{
     height: auto;
 }
 
-.title {
+.h1 {
     font-size: $h1;
     font-weight: $bold ;
-    margin: 0 0 0 0;
 }
 
 .paragraph-header{
-    margin: 18px 6px 0 0;
+    padding: 18px 0 18px 0px;
     font-size: $p;
     font-weight: $regular;
+    width: 235px;
+}
+
+.text-container {
+    font-size: $h2;
+    font-weight: $bold;
 }

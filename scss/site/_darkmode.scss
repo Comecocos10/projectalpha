@@ -1,0 +1,46 @@
+.darkmode{
+    display: flex;
+    justify-content: right;
+    padding-right: 18px;
+}
+
+.border, .cover{
+    height: 42px;
+    width: 96px;
+    border-radius: 24px;
+}
+
+.border{
+    display: inline-block;
+    padding: 3px;
+    background-image: $gradient;
+    
+}
+
+.cover{
+    inset: 0;
+    background-color: $gray;
+    display: flex;
+    box-shadow: inset 1px 1px 3px $black;
+    overflow: hidden;
+}
+
+.button-moon{
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    background-color: $gray-dark;
+    display: flex;
+    justify-content: center;
+    transform: translate(2px, 1px);
+    box-shadow: 3px 0px 6px $gray-ultradark;
+}
+
+.moon{
+    align-self: center;
+    justify-self: center;
+    height: 24px;
+    width: 24px;
+    color: $gray-dark;
+    margin-bottom: 1px;
+}
