@@ -1,0 +1,7 @@
+.open-modal_input{
+    display: none;
+}
+
+.open-modal_input:checked + [aria="dialog"] {
+    display: block;
+}
