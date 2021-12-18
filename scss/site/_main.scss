@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills{
+    padding-top: $space-little;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: space-around;
+}
+
+.managament{
+    background-color: $yellow-light;
+}
+
+.communication{
+    background-color: $red-light;
+}
+
+.technology{
+    background-color: $green-light;
+}
+
+.soft{
+    background-color: $blue-light;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 12px;
+}

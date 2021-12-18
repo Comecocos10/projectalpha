@@ -1,0 +1,22 @@
+.borders{
+    display: inline-block;
+    padding: 6px;
+    box-shadow: 6px 6px 9px $gray-ultradark;
+    margin: $space-little $space-little $space $space-little;
+}
+
+.covers{
+    inset: 0;
+    background-color: $gray;
+}
+
+.sk{
+    border-radius: 12%;
+    width: 130px;
+    height: 102px;
+}
+
+.vectors{
+    width: 54px;
+    height: 54px;
+}

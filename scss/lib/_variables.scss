@@ -1,9 +1,9 @@
 //SPACES
 
 $unit: 6px;
-$spacelittle: $unit * 3; //18//
+$space-little: $unit * 3; //18//
 $space: $unit * 6; //36//
-$spacebig: $unit * 8; //48//
+$space-big: $unit * 8; //48//
 
 //COLORS
 
@@ -61,7 +61,7 @@ $spacebig: $unit * 8; //48//
     //RALEWAY-SIZW
     $p-big: 24px;
     $p: 18px;
-    $p-little: 12px;
+    $p-little: 16px;
 
     //WEIGHT
     $regular: 400;

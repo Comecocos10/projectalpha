@@ -1,3 +1,5 @@
+//HEADER
+
 .text-header{
     padding: 0 0 0 18px;
     display: flex;
@@ -19,10 +21,17 @@
     padding: 18px 0 18px 0px;
     font-size: $p;
     font-weight: $regular;
-    width: 235px;
 }
+
+//MAIN
 
 .text-container {
     font-size: $h2;
     font-weight: $bold;
+    color: $gray-ultradark;
+}
+
+.texts{
+    font-size: $p-little;
+    font-weight: $regular;
 }
