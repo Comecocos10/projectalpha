@@ -1,3 +1,4 @@
+//CONTENIDO MAIN//
 .container{
     display: flex;
     flex-direction: column;
@@ -34,3 +35,24 @@
     align-items: center;
     padding-top: 12px;
 }
+
+//CONTENIDO DEL MODAL//
+
+.title-modal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-vector{
+    width: 60px;
+    height: 60px;
+}
+
+.skills-list{
+    margin-top: $space;
+}
+
+
+

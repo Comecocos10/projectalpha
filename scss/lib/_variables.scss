@@ -47,6 +47,10 @@ $space-big: $unit * 8; //48//
 
     //Degradado
     $gradient: linear-gradient(90deg, $yellow-light 5%, $red-light 35%, $green-light 75%, $blue-light 90%);
+    $yellow-g: linear-gradient(90deg, $yellow-dark, $yellow, $yellow-light, $yellow-ultralight, $gray-light);
+    $red-g: linear-gradient(90deg, $red-dark, $red, $red-light, $red-ultralight, $gray-light);
+    $green-g: linear-gradient(90deg, $green-dark, $green, $green-light, $green-ultralight, $gray-light);
+    $blue-g: linear-gradient(90deg, $blue-dark, $blue, $blue-light, $blue-ultralight, $gray-light);
     
 //TIPOGRAPHY
 
