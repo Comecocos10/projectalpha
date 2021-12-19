@@ -1,11 +1,11 @@
-//SPACES
+//SPACES//
 
 $unit: 6px;
 $space-little: $unit * 3; //18//
 $space: $unit * 6; //36//
 $space-big: $unit * 8; //48//
 
-//COLORS
+//COLORS//
 
     //yellow
     $yellow-ultradark: #8F6400;
@@ -52,7 +52,7 @@ $space-big: $unit * 8; //48//
     $green-g: linear-gradient(90deg, $green-dark, $green, $green-light, $green-ultralight, $gray-light);
     $blue-g: linear-gradient(90deg, $blue-dark, $blue, $blue-light, $blue-ultralight, $gray-light);
     
-//TIPOGRAPHY
+//TIPOGRAPHY//
 
     $tittle: 'Montserrat Alternates', sans-serif;
     $paragraph: 'Raleway', sans-serif;

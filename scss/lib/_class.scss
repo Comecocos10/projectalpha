@@ -5,12 +5,21 @@
     'black':      $black,
     );
     @each $colorname, $value in $basic-colors {
-        .color-#{$colorname} {
-            color: $value;
+        .color-bg-#{$colorname} {
+            background-color: $value;
         }
     }
-    @each $colorname, $value in $basic-colors {
-        .color-bg-#{$colorname} {
+
+//CLASS COLOR SKILLS//
+
+    $skills-colors: (
+        'managament': $yellow-light,
+        'communication': $red-light,
+        'technology': $green-light,
+        'soft': $blue-light,
+    );
+    @each $skill, $value in $skills-colors {
+        .#{$skill}{
             background-color: $value;
         }
     }
@@ -26,4 +35,6 @@
             font-family: $value;
         }
     }
+
+
 

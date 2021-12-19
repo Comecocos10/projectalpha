@@ -29,37 +29,49 @@
 
 .modal-border{
     position: fixed;
-    padding: 6px;
-    min-height: 740px;
-    min-width: 385px;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+    padding: 6px;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 1;
 
 }
 
 .modal-container{
     inset: 0;
     position: fixed;
-    min-height: 704px;
-    min-width: 349px;
+    min-height: fit-content;
+    min-width: fit-content;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     padding: 12px;
+    padding-bottom: $space;
     background-color: $gray-light;
-    overflow-y: auto;
     display: flex;
     flex-direction: column;
 }
 
-//BOTON CERRAR MODAL
+//MAIN
+.nineskills{
+    width: 353px;
+    height: 825px;
+}
+
+.sixskills{
+    width: 353px;
+    height: 582px;
+}
+
+//BOTON CERRAR MODAL//
 .close{
     width: 30px;
     height: 30px;
 }
 
-//BARRA DE LA SKILL
+//BARRA DE LA SKILL//
 .skill-modal{
     display: flex;
     flex-direction: column;
@@ -69,8 +81,28 @@
 .skill-bar{
     height: $space-little;
     width: 75vw;
-    background-image: $yellow-g;
-    border: 0.5px solid $yellow-ultradark;
     border-radius: 12px;
     align-self: center;
+}
+
+//MAIN
+
+.m{
+    background-image: $yellow-g;
+    border: 0.5px solid $yellow-ultradark;
+}
+
+.c{
+    background-image: $red-g;
+    border: 0.5px solid $red-ultradark;
+}
+
+.t{
+    background-image: $green-g;
+    border: 0.5px solid $green-ultradark;
+}
+
+.s{
+    background-image: $blue-g;
+    border: 0.5px solid $blue-ultradark;
 }

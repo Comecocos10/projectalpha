@@ -1,4 +1,4 @@
-//BOTTON ESTRUCTURA BASE//
+//BOTTON ESTRUCTURA BASE
 
 .borders{
     padding: 6px;
@@ -13,7 +13,7 @@
 
 
 
-//MAIN//
+//MAIN
 
 .sk{
     border-radius: 12%;
@@ -24,4 +24,30 @@
 .vectors{
     width: 54px;
     height: 54px;
+}
+
+//END-PAGE
+.b-contact{
+    padding: 3px;
+    background-image: $gradient;
+    border-radius: 12px;
+    width: 132px;
+    height: 43px;
+}
+
+.button-pb{
+    width: 132px;
+    height: 43px;
+    border-radius: 12px;
+    background-color: $gray-dark;
+    color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: $p;
+    font-weight: $bold;
+}
+
+a:link{
+    text-decoration: none;
 }

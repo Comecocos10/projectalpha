@@ -1,0 +1,32 @@
+//PROGRESS-BAR//
+.icon-vector{
+    display: flex;
+    justify-content: space-between;
+}
+
+.pencil-container{
+    position: relative;
+    left: 15%;
+    top: -10px;
+}
+
+.pencil{
+    height: 30px;
+    width: 30px;
+}
+
+.point{
+    height: 48px;
+    width: 48px;
+}
+
+
+
+//CONTACT//
+.part-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin-top: $space-big;
+}
