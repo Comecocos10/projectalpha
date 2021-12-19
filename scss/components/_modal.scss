@@ -49,6 +49,8 @@
     padding: 12px;
     background-color: $gray-light;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 //BOTON CERRAR MODAL
