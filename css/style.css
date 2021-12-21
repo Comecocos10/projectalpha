@@ -475,15 +475,21 @@ main {
           justify-content: space-between;
 }
 
-.pencil-container {
-  position: relative;
-  left: 15%;
-  top: -10px;
+.linea-vector {
+  height: 5px;
+  width: 359px;
+  -webkit-box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
+          box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
+  background-color: #727897;
+  -webkit-transform: translate(-36px -18px);
+          transform: translate(-36px -18px);
 }
 
 .pencil {
   height: 30px;
   width: 30px;
+  -webkit-transform: translate(21px, 21px);
+          transform: translate(21px, 21px);
 }
 
 .point {
