@@ -9,6 +9,9 @@
     width: 359px;
     box-shadow: 3px 3px 6px rgb(37,39,50,50%);
     background-color: $gray-ultradark;
+    position: absolute;
+    transform: translate(20px, -28px);
+    z-index: -2;
 }
 
 .pencil{
@@ -16,6 +19,8 @@
     width: 30px;
     transform: translate(21px,21px);
 }
+
+
 
 .point{
     height: 48px;
