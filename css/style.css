@@ -259,6 +259,7 @@ a:link {
   bottom: 0;
   right: 0;
   background-color: rgba(114, 120, 151, 0.5);
+  z-index: 100;
 }
 
 .modal-border, .modal-container {
@@ -481,6 +482,10 @@ main {
   -webkit-box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
           box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
   background-color: #727897;
+  position: absolute;
+  -webkit-transform: translate(20px, -28px);
+          transform: translate(20px, -28px);
+  z-index: -2;
 }
 
 .pencil {
