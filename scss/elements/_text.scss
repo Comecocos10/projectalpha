@@ -5,8 +5,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-
 }
+@media (max-width: 400px){
+     .text-header{
+          padding: 0 0 0 48px;
+          max-width: 165px;
+     }
+}
+
 
 .h1, .paragraph-header{
     height: auto;
@@ -47,7 +53,7 @@
     font-weight: $regular;
     font-size: $p-big;
     padding-bottom: $unit;
-    padding-left: $space-little;
+    padding-left: 3px;
 }
 
 //END-PAGE

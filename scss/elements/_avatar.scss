@@ -5,6 +5,12 @@
      justify-content: center;
 }
 
+@media (max-width: 400px){
+     .image-header{
+          transform: translate(-24px, 42px);
+     }
+}
+
 .photo, .shadow{
      width: 180px;
      height: 390px;

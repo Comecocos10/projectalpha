@@ -1,9 +1,4 @@
 //BASE MODAL//
-
-.open-modal{
-    display: inline-block;
-}
-
 .open-modal_input{
     display: none;
 }
@@ -25,6 +20,7 @@
 
 .modal-border, .modal-container{
     border-radius: 12px;
+    
 }
 
 .modal-border{
@@ -36,7 +32,6 @@
     display: flex;
     flex-basis: auto;
     flex-grow: 1;
-
 }
 
 .modal-container{
@@ -56,13 +51,18 @@
 
 //MAIN
 .nineskills{
-    width: 353px;
-    height: 825px;
+    min-width: 88%;
+    height: 813px;
+}
+
+.sevenskills{
+    min-width: 86%;
+    height: 658px;
 }
 
 .sixskills{
-    width: 353px;
-    height: 582px;
+    min-width: 88%;
+    height: 580px;
 }
 
 //BOTON CERRAR MODAL//
@@ -76,13 +76,14 @@
     display: flex;
     flex-direction: column;
     padding-top: 24px;
+    min-width: 50%;
 }
 
 .skill-bar{
     height: $space-little;
-    width: 75vw;
     border-radius: 12px;
     align-self: center;
+    width: 77vw;
 }
 
 //MAIN

@@ -2,17 +2,36 @@
 .icon-vector{
     display: flex;
     justify-content: space-between;
+    min-width: 90vw;
 }
 
 .linea-vector{
     height: 5px;
-    width: 359px;
+    min-width: 87vw;
+    margin: 0 12px 0 0;
     box-shadow: 3px 3px 6px rgb(37,39,50,50%);
     background-color: $gray-ultradark;
     position: absolute;
-    transform: translate(20px, -28px);
+    transform: translate(15px, -28px);
     z-index: -2;
 }
+
+@media (max-width: 470px) {
+    .linea-vector{
+        min-width: 85vw; 
+    }
+}
+@media (max-width: 410px) {
+    .linea-vector{
+        min-width: 82vw; 
+    }
+}
+@media (max-width: 340px) {
+    .linea-vector{
+        min-width: 80vw; 
+    }
+}
+
 
 .pencil{
     height: 30px;
@@ -20,12 +39,15 @@
     transform: translate(21px,21px);
 }
 
-
+.pencil-mana, .pencil-comm, .pencil-tech, .pencil-soft{
+    visibility: hidden;
+}
 
 .point{
     height: 48px;
     width: 48px;
 }
+
 
 //CONTACT//
 .part-contact{
