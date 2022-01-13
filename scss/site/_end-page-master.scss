@@ -7,7 +7,7 @@
 
 .linea-vector{
     height: 5px;
-    min-width: 87vw;
+    min-width: 80vw;
     margin: 0 12px 0 0;
     box-shadow: 3px 3px 6px rgb(37,39,50,50%);
     background-color: $gray-ultradark;
@@ -15,20 +15,19 @@
     transform: translate(15px, -28px);
     z-index: -2;
 }
-
-@media (max-width: 470px) {
+@media (min-width: 320px) {
     .linea-vector{
-        min-width: 85vw; 
+        min-width: 78vw; 
     }
 }
-@media (max-width: 410px) {
+@media (min-width: 410px) {
     .linea-vector{
         min-width: 82vw; 
     }
 }
-@media (max-width: 340px) {
+@media (min-width: 490px) {
     .linea-vector{
-        min-width: 80vw; 
+        min-width: 84vw; 
     }
 }
 

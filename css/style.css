@@ -545,7 +545,7 @@ main {
 
 .linea-vector {
   height: 5px;
-  min-width: 87vw;
+  min-width: 80vw;
   margin: 0 12px 0 0;
   -webkit-box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
           box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
@@ -556,19 +556,19 @@ main {
   z-index: -2;
 }
 
-@media (max-width: 470px) {
+@media (min-width: 320px) {
   .linea-vector {
-    min-width: 85vw;
+    min-width: 78vw;
   }
 }
-@media (max-width: 410px) {
+@media (min-width: 410px) {
   .linea-vector {
     min-width: 82vw;
   }
 }
-@media (max-width: 340px) {
+@media (min-width: 490px) {
   .linea-vector {
-    min-width: 80vw;
+    min-width: 84vw;
   }
 }
 .pencil {
