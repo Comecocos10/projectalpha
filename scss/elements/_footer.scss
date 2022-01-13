@@ -1,0 +1,12 @@
+.background{
+    background-color: $gray-dark;
+    display: flex;
+    height: 46px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-footer{
+    height: fit-content;
+    width: fit-content;
+}

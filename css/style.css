@@ -251,6 +251,18 @@ a:link {
   color: #252732;
 }
 
+.text-title-contact {
+  font-size: 36px;
+  font-weight: 700;
+  color: #252732;
+}
+
+.text-footer {
+  font-size: 16px;
+  font-weight: 700;
+  color: #727897;
+}
+
 .open-modal_input {
   display: none;
 }
@@ -379,6 +391,28 @@ a:link {
   background-image: -webkit-gradient(linear, left top, right top, from(#126773), color-stop(#198F9F), color-stop(#69D8E7), color-stop(#C1EFF5), to(#F0F1F4));
   background-image: linear-gradient(90deg, #126773, #198F9F, #69D8E7, #C1EFF5, #F0F1F4);
   border: 0.5px solid #0B3F47;
+}
+
+.background {
+  background-color: #ADB0C2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 46px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo-footer {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
 }
 
 * {

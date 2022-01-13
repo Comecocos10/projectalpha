@@ -1,64 +1,81 @@
-//HEADER
+//MASTER.HTML
+    //HEADER
 
-.text-header{
-    padding: 0 0 0 18px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-@media (max-width: 400px){
-     .text-header{
-          padding: 0 0 0 48px;
-          max-width: 165px;
-     }
-}
+    .text-header{
+        padding: 0 0 0 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    @media (max-width: 400px){
+        .text-header{
+            padding: 0 0 0 48px;
+            max-width: 165px;
+        }
+    }
 
 
-.h1, .paragraph-header{
-    height: auto;
-}
+    .h1, .paragraph-header{
+        height: auto;
+    }
 
-.h1 {
-    font-size: $h1;
-    font-weight: $bold ;
-}
+    .h1 {
+        font-size: $h1;
+        font-weight: $bold ;
+    }
 
-.paragraph-header{
-    padding: 18px 0 18px 0px;
-    font-size: $p;
-    font-weight: $regular;
-}
+    .paragraph-header{
+        padding: 18px 0 18px 0px;
+        font-size: $p;
+        font-weight: $regular;
+    }
 
-//MAIN
+    //MAIN
 
-.text-container {
-    font-size: $h2;
-    font-weight: $bold;
-    color: $gray-ultradark;
-}
+    .text-container {
+        font-size: $h2;
+        font-weight: $bold;
+        color: $gray-ultradark;
+    }
 
-.texts{
-    font-size: $p-little;
-    font-weight: $regular;
-}
+    .texts{
+        font-size: $p-little;
+        font-weight: $regular;
+    }
 
-//MODAL
-.text-modal{
-    color: $gray-ultradark;
-    font-weight: $bold;
-    font-size: $h3;
-}
+    //MODAL
+    .text-modal{
+        color: $gray-ultradark;
+        font-weight: $bold;
+        font-size: $h3;
+    }
 
-.text-skill-bar{
-    font-weight: $regular;
-    font-size: $p-big;
-    padding-bottom: $unit;
-    padding-left: 3px;
-}
+    .text-skill-bar{
+        font-weight: $regular;
+        font-size: $p-big;
+        padding-bottom: $unit;
+        padding-left: 3px;
+    }
 
-//END-PAGE
-.text-contact{
-    font-size: $p-little;
-    font-weight: $bold;
-    color: $black;
-}
+    //END-PAGE
+    .text-contact{
+        font-size: $p-little;
+        font-weight: $bold;
+        color: $black;
+    }
+
+//CONTAC.HTML
+    //HEADER
+    .text-title-contact{
+        font-size: $h2;
+        font-weight: $bold;
+        color: $black;
+    }
+
+    //FOOTER
+    .text-footer{
+        font-size: $p-little;
+        font-weight: $bold;
+        color: $gray-ultradark;
+    }
+
