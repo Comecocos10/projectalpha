@@ -1,0 +1,23 @@
+section{
+    padding: $unit;
+}
+
+.title-contact{
+    padding: $space-little;
+}
+
+.return{
+    padding-bottom: $unit;
+}
+
+.text-header-contact{
+    display: flex;
+    flex-direction: column;
+    padding: 0 12px 12px 12px;
+    align-items: center;
+}
+.imagen-contact{
+    width: 275px;
+    height: 185.5px;
+    margin: $unit $space-little $unit $space-little;
+}

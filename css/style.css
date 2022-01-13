@@ -264,6 +264,14 @@ a:link {
   font-size: 36px;
   font-weight: 700;
   color: #252732;
+  text-align: center;
+}
+
+.text-contact {
+  font-size: 18px;
+  font-weight: 400;
+  color: #252732;
+  text-align: center;
 }
 
 .text-footer {
@@ -433,7 +441,7 @@ html {
   font-size: 100%;
 }
 
-body {
+.body-master {
   padding: 12px;
 }
 
@@ -592,4 +600,36 @@ main {
           align-items: center;
   justify-items: center;
   margin-top: 48px;
+}
+
+section {
+  padding: 6px;
+}
+
+.title-contact {
+  padding: 18px;
+}
+
+.return {
+  padding-bottom: 6px;
+}
+
+.text-header-contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 12px 12px 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.imagen-contact {
+  width: 275px;
+  height: 185.5px;
+  margin: 6px 18px 6px 18px;
 }
