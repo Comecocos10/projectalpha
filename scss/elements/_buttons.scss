@@ -11,43 +11,47 @@
     background-color: $gray;
 }
 
+//MASTER.HTML
+    //MAIN
 
+    .sk{
+        border-radius: 12%;
+        width: 130px;
+        height: 102px;
+    }
 
-//MAIN
+    .vectors{
+        width: 54px;
+        height: 54px;
+    }
 
-.sk{
-    border-radius: 12%;
-    width: 130px;
-    height: 102px;
-}
+    //END-PAGE
+    .button-contact{
+        padding: 3px;
+        background-image: $gradient;
+        border-radius: 12px;
+        width: 132px;
+        height: 43px;
+    }
 
-.vectors{
-    width: 54px;
-    height: 54px;
-}
+    .insidebutton-contact{
+        width: 132px;
+        height: 43px;
+        border-radius: 12px;
+        background-color: $gray-dark;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
 
-//END-PAGE
-.button-contact{
-    padding: 3px;
-    background-image: $gradient;
-    border-radius: 12px;
-    width: 132px;
-    height: 43px;
-}
+    a:link{
+        text-decoration: none;
+    }
 
-.insidebutton-contact{
-    width: 132px;
-    height: 43px;
-    border-radius: 12px;
-    background-color: $gray-dark;
-    color: $white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: $p;
-    font-weight: $bold;
-}
-
-a:link{
-    text-decoration: none;
-}
+//CONTACT.HTML
+    //SEND
+    .send{
+        width: 89px;
+        height: 43px;
+    }

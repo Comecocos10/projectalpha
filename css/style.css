@@ -168,7 +168,6 @@
   height: 43px;
   border-radius: 12px;
   background-color: #ADB0C2;
-  color: #F0F1F4;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -178,12 +177,16 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 18px;
-  font-weight: 700;
+  border: none;
 }
 
 a:link {
   text-decoration: none;
+}
+
+.send {
+  width: 89px;
+  height: 43px;
 }
 
 .text-header {
@@ -245,10 +248,16 @@ a:link {
   padding-left: 3px;
 }
 
-.text-contact {
+.text-top-contact {
   font-size: 16px;
   font-weight: 700;
   color: #252732;
+}
+
+.text-button {
+  font-size: 18px;
+  font-weight: 700;
+  color: #F0F1F4;
 }
 
 .text-title-contact {
@@ -404,6 +413,7 @@ a:link {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 0 0 0;
 }
 
 .logo-footer {
