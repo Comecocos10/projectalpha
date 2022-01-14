@@ -56,8 +56,32 @@
         height: 43px;  
     }
 
+    @media (max-width: 420px){
+            .send{
+                width: 18vw;
+            }
+        }
+
     .border{
         box-shadow: 6px 6px 9px $gray-ultradark;
     }
 
-    
+    //RRSS
+    .insta-b, .linke-b{
+        padding: 3px;
+        background-image: $gradient;
+        border-radius: 12px;
+        width: 94px;
+        height: 94px;
+    }
+
+    .insta-c, .linke-c{
+        inset: 0;
+        background-color: $gray;
+        border-radius: 12%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 94px;
+    }

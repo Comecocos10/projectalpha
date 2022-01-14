@@ -2,14 +2,15 @@ section{
     padding: $unit;
 }
     //HEADER
+
     .title-contact{
-        padding: $unit $space-little 0px $space-little;
+        padding: $unit $space-little $space-little $space-little;
     }
 
     .text-header-contact{
         display: flex;
         flex-direction: column;
-        padding: 0 12px 0 12px;
+        padding: $space-little 12px 0 12px;
         align-items: center;
     }
     .imagen-contact{
@@ -31,14 +32,15 @@ section{
             padding: $unit;
             background-image: $gradient;
             border-radius: 12px;
-            margin-bottom: 12px;
+            margin-bottom: $space-little;
         }
 
         
 
         .message{
-            width: 356px;
-            height: 106px;
+            width: 82vw;
+            min-height: 32px;
+            height: 6vh;
             border-radius: 12px;
             background-color: $gray;
             border: none;
@@ -49,7 +51,7 @@ section{
     .button-with-email{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        width: 90vw;
     
     }
         
@@ -67,9 +69,23 @@ section{
             border-radius: $unit;
             background-color: $gray;
             border: none;
-            padding: $unit $unit $unit 12px;
+            padding: $unit $unit $unit 15px;
             height: 24px;
             width: 238px;
         }
-    
+
+        @media (max-width: 420px){
+            .email-message{
+                width: 55vw;
+            }
+        }
+
+    //RRSS
+    .rrss{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: $space;
+        padding-right: $space;
+    }
    
