@@ -4,18 +4,132 @@
 
 html  {
   font-size: 100%;
+  box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
 }
 
 .body-master{
-    padding: 12px;
+    padding: $unit;
+    
 }
 
 header{
-    margin-top: 6px;
-    box-sizing: border-box;
+    margin-top: $unit;
 }
+
+    //CONTENIDO HEADER//
+    .tittle{
+        display: flex;
+        width: min-content;
+        min-width: 100%;
+        max-width: 100%;
+    }
+
 
 main{
     padding-top: $space;
 }
+    //CONTENIDO MAIN//
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skills{
+        padding-top: $space-little;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        justify-content: space-around;
+    }
+
+
+    .icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 12px;
+    }
+
+    //CONTENIDO DEL MODAL//
+
+    .title-modal{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .modal-vector{
+        width: 60px;
+        height: 60px;
+    }
+
+    .skills-list{
+        margin-top: $space;
+    }
+
+//ENDPAGE//
+    //PROGRESS-BAR//
+    .icon-vector{
+        display: flex;
+        justify-content: space-between;
+        min-width: 90vw;
+    }
+
+    .linea-vector{
+        height: 5px;
+        min-width: 80vw;
+        margin: 0 12px 0 0;
+        box-shadow: 3px 3px 6px rgb(37,39,50,50%);
+        background-color: $gray-ultradark;
+        position: absolute;
+        transform: translate(15px, -28px);
+        z-index: -2;
+    }
+    @media (min-width: 320px) {
+        .linea-vector{
+            min-width: 78vw; 
+        }
+    }
+    @media (min-width: 410px) {
+        .linea-vector{
+            min-width: 82vw; 
+        }
+    }
+    @media (min-width: 490px) {
+        .linea-vector{
+            min-width: 84vw; 
+        }
+    }
+
+
+    .pencil{
+        height: 30px;
+        width: 30px;
+        transform: translate(21px,21px);
+    }
+
+    .pencil-mana, .pencil-comm, .pencil-tech, .pencil-soft{
+        visibility: hidden;
+    }
+
+    .point{
+        height: 48px;
+        width: 48px;
+    }
+
+
+    //CONTACT//
+    .part-contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        margin-top: $space-big;
+    }    
 

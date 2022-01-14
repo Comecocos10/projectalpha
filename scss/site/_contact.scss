@@ -1,23 +1,75 @@
 section{
     padding: $unit;
 }
+    //HEADER
+    .title-contact{
+        padding: $unit $space-little 0px $space-little;
+    }
 
-.title-contact{
-    padding: $space-little;
-}
+    .text-header-contact{
+        display: flex;
+        flex-direction: column;
+        padding: 0 12px 0 12px;
+        align-items: center;
+    }
+    .imagen-contact{
+        width: 275px;
+        height: 185.5px;
+        margin: $unit $space-little $unit $space-little;
+    }
 
-.return{
-    padding-bottom: $unit;
-}
+    //FORM
+    .formulario{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    } 
+    
+        .messageBox{
+            width: fit-content;
+            height: fit-content;
+            padding: $unit;
+            background-image: $gradient;
+            border-radius: 12px;
+            margin-bottom: 12px;
+        }
 
-.text-header-contact{
-    display: flex;
-    flex-direction: column;
-    padding: 0 12px 12px 12px;
-    align-items: center;
-}
-.imagen-contact{
-    width: 275px;
-    height: 185.5px;
-    margin: $unit $space-little $unit $space-little;
-}
+        
+
+        .message{
+            width: 356px;
+            height: 106px;
+            border-radius: 12px;
+            background-color: $gray;
+            border: none;
+            padding: 12px;
+            resize: none;
+        }
+
+    .button-with-email{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+    }
+        
+        .emailBox{
+            padding: $unit;
+            background-image: $gradient;
+            border-radius: 12px;
+            margin-bottom: 12px;
+            height: fit-content;
+            width: fit-content;
+            margin-right: $space-little;
+        }
+
+        .email-message{
+            border-radius: $unit;
+            background-color: $gray;
+            border: none;
+            padding: $unit $unit $unit 12px;
+            height: 24px;
+            width: 238px;
+        }
+    
+   

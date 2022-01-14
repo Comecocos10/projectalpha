@@ -1,6 +1,5 @@
 .image-header{
-     transform: translate(-12px, 42px);
-     padding-left: 6px;
+     transform: translate(-$unit, $space);
      display: flex;
      justify-content: center;
 }

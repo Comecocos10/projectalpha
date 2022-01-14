@@ -2,17 +2,12 @@
     //HEADER
 
     .text-header{
-        padding: 0 0 0 18px;
+        padding: 0 0 0 $space-little;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
-    @media (max-width: 400px){
-        .text-header{
-            padding: 0 0 0 48px;
-            max-width: 165px;
-        }
-    }
+
 
 
     .h1, .paragraph-header{
@@ -25,9 +20,10 @@
     }
 
     .paragraph-header{
-        padding: 18px 0 18px 0px;
+        padding: $space-little $unit $space-little 0px;
         font-size: $p;
         font-weight: $regular;
+        min-width: 166px;
     }
 
     //MAIN

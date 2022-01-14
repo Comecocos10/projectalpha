@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Contact me. Andrea Menjacaps</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css">
@@ -15,6 +15,7 @@
 </head>
 
 <body class="color-bg-white">
+    <!--SECTION HEADER-->
     <section>
         <header class="title-contact">
             <a class="return" href="">
@@ -33,21 +34,25 @@
             </div>
         </header>
     </section>
+    <!--SECTION FORMULARIO-->
     <section>
-        <form>
+        <form class="formulario">
             <div class="messageBox">
-                <label for="message"></label><br>
-                <textarea id="message" required placeholder="Put your message" class="tipo-Raleway"></textarea>
+                <textarea id="message" required placeholder="Put your message" autocapitalize="senteces" class="message tipo-Raleway"></textarea>
+                <label for="message"></label>
             </div>
-            <div class="button-contact send">
-                <input type="submit" value="Send" class="text-button insidebutton-contact send tipo-Montserrat">
-            </div>
-            <div class="emailBox">
-                <label for="emailAddress"></label><br>
-                <input id="emailAddress" type="email" required placeholder="Put your email" class="tipo-Raleway">
+            <div class="button-with-email">
+                <div class="emailBox">
+                    <input id="emailAddress" type="email" required placeholder="Put your email" maxlength="254" class="email-message tipo-Raleway">
+                    <label for="emailAddress"></label>
+                </div>
+                <div class="button-contact send border">
+                    <input type="submit" value="Send" class="text-button insidebutton-contact send tipo-Montserrat">
+                </div>
             </div>
         </form>
     </section>
+    <!--SECTION RRSS-->
     <section class="rrss">
         <a href="">
             <div class="borders">
