@@ -13,8 +13,13 @@ body{
 
 .body-master{
     padding: $unit;
-    
 }
+@media (min-width: 1200px) {
+    .body-master{
+        padding: $unit $space $space $space;
+    } 
+}
+
 
 header{
     margin-top: $unit;
@@ -23,20 +28,60 @@ header{
     //CONTENIDO HEADER//
     .tittle{
         display: flex;
-        width: min-content;
+        justify-content: center;
         min-width: 100%;
         max-width: 100%;
     }
 
 
+@media (min-width: 850px) {
+    .desktop{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin: $unit $space-big $unit $space-big;
+        max-width: 1206px;
+    }
+}
+@media (min-width: 1450px) {
+    .desktop{
+        margin: 0 $space-big 0 210px;
+    } 
+}
+
+@media (min-width: 1700px) {
+    .desktop{
+        margin: 0 $space-big 0 330px;
+    } 
+}
+
 main{
     padding-top: $space;
+}
+@media (min-width: 850px) {
+    main{
+        padding-top: $unit;
+    }
+    
 }
     //CONTENIDO MAIN//
     .container{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    @media (min-width: 850px) {
+        .container{
+            width: 40vw;
+            margin: $unit $unit $unit 0;
+            flex: 1;
+        }
+    }
+    @media (min-width:1110px){
+        .container{
+            max-width: 478px;
+        }
     }
 
     .skills{
@@ -74,12 +119,41 @@ main{
     }
 
 //ENDPAGE//
+@media (min-width: 850px){
+    .endpage{
+        width: 40vw;
+        margin: $unit 0 $unit $space-big;
+    }
+}
+@media (min-width: 1110px){
+    .endpage{
+        max-width: 444px;
+    }
+}
     //PROGRESS-BAR//
+    @media(min-width: 1080px){
+        .progressbar{
+           max-width: 750px; 
+        }
+    }
     .icon-vector{
         display: flex;
         justify-content: space-between;
         min-width: 90vw;
     }
+
+    @media (min-width: 850px) {
+        .icon-vector{
+            min-width: 40vw; 
+        }
+    }
+    @media (min-width: 1100px) {
+        .icon-vector{
+            min-width: 0;
+            max-width: 442px; 
+        }
+    }
+    
 
     .linea-vector{
         height: 5px;
@@ -101,9 +175,34 @@ main{
             min-width: 82vw; 
         }
     }
-    @media (min-width: 490px) {
+    @media (min-width: 440px) {
         .linea-vector{
-            min-width: 84vw; 
+            min-width: 86vw; 
+        }
+    }
+    @media (min-width: 670px) {
+        .linea-vector{
+            min-width: 88vw; 
+        }
+    }
+    @media (min-width: 780px) {
+        .linea-vector{
+            min-width: 90vw; 
+        }
+    }
+    @media (min-width: 850px) {
+        .linea-vector{
+            min-width: 34vw; 
+        }
+    }
+    @media (min-width: 880px) {
+        .linea-vector{
+            min-width: 36vw; 
+        }
+    }
+    @media (min-width: 1110px) {
+        .linea-vector{
+            min-width: 395px; 
         }
     }
 

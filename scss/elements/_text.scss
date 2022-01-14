@@ -7,8 +7,16 @@
         flex-direction: column;
         justify-content: center;
     }
-
-
+    @media (min-width: 850px){
+        .text-header{
+            padding: 0 $space-little 0 72px;
+        }
+    }
+    @media (min-width: 1200px){
+        .text-header{
+            padding: 0 $space-little 0 $unit;
+        }
+    }
 
     .h1, .paragraph-header{
         height: auto;
@@ -24,6 +32,7 @@
         font-size: $p;
         font-weight: $regular;
         min-width: 166px;
+        max-width: 600px;
     }
 
     //MAIN

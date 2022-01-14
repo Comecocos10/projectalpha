@@ -9,11 +9,35 @@
           transform: translate(-24px, 42px);
      }
 }
+@media (min-width: 850px){
+     .image-header{
+          transform: translate(46px, 46px);
+
+     }
+}
+@media (min-width: 1050px){
+     .image-header{
+          transform: translate($space-little, 60px);
+     }
+}
 
 .photo, .shadow{
      width: 180px;
      height: 390px;
      background-size: cover;     
+}
+
+@media (min-width: 850px){
+     .photo, .shadow{
+          width: 220px;
+          height: 482px;
+     }
+}
+@media (min-width: 1050px){
+     .photo, .shadow{
+          width: 230px;
+          height: 492px;
+     }
 }
 
 
