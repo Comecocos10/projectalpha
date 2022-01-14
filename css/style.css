@@ -600,7 +600,7 @@ main {
 
 @media (min-width: 320px) {
   .linea-vector {
-    min-width: 78vw;
+    min-width: 81vw;
   }
 }
 @media (min-width: 410px) {
@@ -652,6 +652,11 @@ section {
   padding: 6px 18px 18px 18px;
 }
 
+@media (min-width: 480px) {
+  .title-contact {
+    padding: 18px;
+  }
+}
 .text-header-contact {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -683,6 +688,11 @@ section {
           justify-content: center;
 }
 
+@media (min-width: 470px) {
+  .formulario {
+    margin-top: 48px;
+  }
+}
 .messageBox {
   width: -webkit-fit-content;
   width: -moz-fit-content;

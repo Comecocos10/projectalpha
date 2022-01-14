@@ -7,6 +7,13 @@ section{
         padding: $unit $space-little $space-little $space-little;
     }
 
+    @media (min-width: 480px){
+        .title-contact{
+            padding: $space-little;
+        }
+    }
+
+
     .text-header-contact{
         display: flex;
         flex-direction: column;
@@ -24,7 +31,13 @@ section{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-    } 
+    }
+
+    @media (min-width: 470px){
+        .formulario{
+            margin-top: $space-big;
+        }
+    }
     
         .messageBox{
             width: fit-content;
@@ -34,8 +47,6 @@ section{
             border-radius: 12px;
             margin-bottom: $space-little;
         }
-
-        
 
         .message{
             width: 82vw;
@@ -47,6 +58,7 @@ section{
             padding: 12px;
             resize: none;
         }
+
 
     .button-with-email{
         display: flex;
