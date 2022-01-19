@@ -1,15 +1,64 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 section{
     padding: $unit;
 }
+
     //HEADER
 
     .title-contact{
         padding: $unit $space-little $space-little $space-little;
+        max-width: 595px;
+        justify-content: center;
+        align-items: center;
     }
 
     @media (min-width: 480px){
         .title-contact{
             padding: $space-little;
+        }
+    }
+     @media (min-width: 480px){
+        .title-contact{
+            padding: $space-little;
+        }
+    }
+    @media (min-width: 625px){
+        .title-contact{
+            margin-left: 80px;
+        }
+    }
+    @media (min-width: 725px){
+        .title-contact{
+            margin-left: 100px;
+        }
+    }
+    @media (min-width: 825px){
+        .title-contact{
+            margin-left: 150px;
+        }
+    }
+    @media (min-width: 1130px){
+        .title-contact{
+            margin-left: 250px;
+        }
+    }
+    @media (min-width: 1330px){
+        .title-contact{
+            margin-left: 380px;
+        }
+    }
+    @media (min-width: 1530px){
+        .title-contact{
+            margin-left: 480px;
+        }
+    }
+    @media (min-width: 1730px){
+        .title-contact{
+            margin-left: 630px;
         }
     }
 
@@ -38,9 +87,39 @@ section{
             margin-top: $space-big;
         }
     }
-    
+    @media (min-width: 825px){
+        .formulario{
+            margin-right: 150px;
+            margin-left: 150px;
+        }
+    }
+    @media (min-width: 1130px){
+        .formulario{
+            margin-right: 250px;
+            margin-left: 250px;
+        }
+    }
+    @media (min-width: 1330px){
+        .formulario{
+            margin-right: 350px;
+            margin-left: 350px;
+        }
+    }
+    @media (min-width: 1530px){
+        .formulario{
+            margin-right: 450px;
+            margin-left: 450px;
+        }
+    }
+    @media (min-width: 1730px){
+        .formulario{
+            margin-right: 550px;
+            margin-left: 550px;
+        }
+    }
         .messageBox{
             width: fit-content;
+            max-width: 413px;
             height: fit-content;
             padding: $unit;
             background-image: $gradient;
@@ -51,6 +130,7 @@ section{
         .message{
             width: 82vw;
             min-height: 32px;
+            max-width: 380px;
             height: 6vh;
             border-radius: 12px;
             background-color: $gray;
@@ -64,6 +144,7 @@ section{
         display: flex;
         flex-direction: row;
         width: 90vw;
+        max-width: 405px;
     
     }
         
@@ -99,5 +180,57 @@ section{
         align-items: center;
         padding-left: $space;
         padding-right: $space;
+    }
+    @media (min-width: 650px){
+        .rrss{
+            margin-right: 75px;
+            margin-left: 75px;
+        }
+    }
+    @media (min-width: 840px){
+        .rrss{
+            margin-right: 150px;
+            margin-left: 150px;
+            margin-top: $space;
+            margin-bottom: 42px;
+        }
+    }
+    @media (min-width: 950px){
+        .rrss{
+            margin-right: 220px;
+            margin-left: 220px;
+            margin-top: $space-little;
+            margin-bottom: $space;
+        }
+    }
+    @media (min-width: 1030px){
+        .rrss{
+            margin-right: 260px;
+            margin-left: 260px;
+        }
+    }
+    @media (min-width: 1130px){
+        .rrss{
+            margin-right: 350px;
+            margin-left: 350px;
+        }
+    }
+    @media (min-width: 1330px){
+        .rrss{
+            margin-right: 450px;
+            margin-left: 450px;
+        }
+    }
+    @media (min-width: 1530px){
+        .rrss{
+            margin-right: 550px;
+            margin-left: 550px;
+        }
+    }
+    @media (min-width: 1730px){
+        .rrss{
+            margin-right: 650px;
+            margin-left: 650px;
+        }
     }
    

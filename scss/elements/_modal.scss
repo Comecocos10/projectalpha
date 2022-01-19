@@ -16,11 +16,11 @@
     right: 0;
     background-color: rgb(114, 120, 151, 50%);
     z-index: 100;
+    
 }
 
 .modal-border, .modal-container{
     border-radius: 12px;
-    
 }
 
 .modal-border{
@@ -52,17 +52,63 @@
 //MAIN
 .nineskills{
     min-width: 88%;
-    height: 813px;
+    height: 703px;
+
+}
+@media (min-width: 750px){
+    .nineskills{
+        min-width: 85%;
+    }
+}
+@media (min-width: 1300px){
+    .nineskills{
+        min-width: 82%;
+    }
+}
+@media (min-width: 1650px){
+    .nineskills{
+        min-width: 81%;
+    }
 }
 
 .sevenskills{
     min-width: 86%;
-    height: 658px;
+    height: 660px;
+}
+@media (min-width: 750px){
+    .sevenskills{
+        min-width: 85%;
+    }
+}
+@media (min-width: 1300px){
+    .sevenskills{
+        min-width: 84%;
+    }
+}
+@media (min-width: 1650px){
+    .sevenskills{
+        min-width: 83%;
+    }
 }
 
 .sixskills{
     min-width: 88%;
-    height: 580px;
+    height: 585px;
+}
+@media (min-width: 750px){
+    .sixskills{
+        min-width: 84%;
+    }
+}
+@media (min-width: 1300px){
+    .sixskills{
+        min-width: 83%;
+    }
+}
+@media (min-width: 1650px){
+    .sixskills{
+        min-width: 81%;
+    }
 }
 
 //BOTON CERRAR MODAL//
@@ -77,6 +123,10 @@
     flex-direction: column;
     padding-top: 24px;
     min-width: 50%;
+}
+
+.tech{
+    padding-top: 12px;
 }
 
 .skill-bar{
