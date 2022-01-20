@@ -24,7 +24,13 @@
 
     .h1 {
         font-size: $h1;
-        font-weight: $bold ;
+        font-weight: $bold;
+        color: $black;
+        background: -webkit-linear-gradient(left top,#8F6400 6%, #5E081C, #024533, #0B3F47);
+        background: linear-gradient(to bottom right, #8F6400 6%, #5E081C, #024533, #0B3F47);
+        -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+
     }
 
     .paragraph-header{
