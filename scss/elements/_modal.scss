@@ -72,22 +72,22 @@
 }
 
 .sevenskills{
-    min-width: 86%;
+    min-width: 87%;
     height: 660px;
 }
 @media (min-width: 750px){
     .sevenskills{
-        min-width: 85%;
+        min-width: 83%;
     }
 }
 @media (min-width: 1300px){
     .sevenskills{
-        min-width: 84%;
+        min-width: 82%;
     }
 }
 @media (min-width: 1650px){
     .sevenskills{
-        min-width: 83%;
+        min-width: 80%;
     }
 }
 
@@ -97,17 +97,17 @@
 }
 @media (min-width: 750px){
     .sixskills{
-        min-width: 84%;
+        min-width: 83%;
     }
 }
 @media (min-width: 1300px){
     .sixskills{
-        min-width: 83%;
+        min-width: 82%;
     }
 }
 @media (min-width: 1650px){
     .sixskills{
-        min-width: 81%;
+        min-width: 80%;
     }
 }
 
@@ -129,31 +129,54 @@
     padding-top: 12px;
 }
 
-.skill-bar{
+.skill-bar {
     height: $space-little;
-    border-radius: 12px;
-    align-self: center;
+    border-radius: 12px; 
     width: 77vw;
+    display: flex;
+    align-self: center;
+    padding: 0.25px;
+
+  .skill-bar__interna-m {
+    background-image: $yellow-g;
+    border-radius: 12px;
+  }
+  .skill-bar__interna-c {
+    background-image: $red-g;
+    border-radius: 12px;
+  }
+  .skill-bar__interna-t {
+    background-image: $green-g;
+    border-radius: 12px;
+  }
+  .skill-bar__interna-s {
+    background-image: $blue-g;
+    border-radius: 12px;
+  }
 }
+
+@for $i from 1 through 100 {
+  .skill-bar__interna-#{$i} {
+    flex: 0 0 ($i * 1%);
+  }
+}
+
 
 //MAIN
 
 .m{
-    background-image: $yellow-g;
-    border: 0.5px solid $yellow-ultradark;
+    border: 1px solid $yellow-ultradark;
 }
 
 .c{
-    background-image: $red-g;
-    border: 0.5px solid $red-ultradark;
+    border: 1px solid $red-ultradark;
 }
 
 .t{
-    background-image: $green-g;
-    border: 0.5px solid $green-ultradark;
+    border: 1px solid $green-ultradark;
 }
 
 .s{
-    background-image: $blue-g;
-    border: 0.5px solid $blue-ultradark;
+    border: 1px solid $blue-ultradark;
 }
+
