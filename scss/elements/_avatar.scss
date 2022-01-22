@@ -1,54 +1,59 @@
 .image-header{
-     transform: translate(-$unit, $space);
+     transform: translate(-15px, $space);
      display: flex;
      justify-content: center;
 }
 
 @media (max-width: 400px){
      .image-header{
-          transform: translate(-24px, 42px);
+          transform: translate(-33px, 42px);
+     }
+}
+@media (min-width: 600px){
+     .image-header{
+          transform: translate(-45px, 42px);
      }
 }
 @media (min-width: 850px){
      .image-header{
-          transform: translate($unit, 46px);
+          transform: translate(-45px, 46px);
 
      }
 }
 @media (min-width: 1050px){
      .image-header{
-          transform: translate($space-little, 60px);
+          transform: translate(28px, 60px);
      }
 }
 
 .photo, .shadow{
-     width: 180px;
-     height: 390px;
+     width: 200px;
+     height: 412.06px;
      background-size: cover;     
 }
 
 @media (min-width: 850px){
      .photo, .shadow{
           width: 220px;
-          height: 482px;
+          height: 453.26px;
      }
 }
 @media (min-width: 1050px){
      .photo, .shadow{
-          width: 230px;
-          height: 492px;
+          width: 270px;
+          height: 556.28px;
      }
 }
 
 
 .photo {
-     background-image: url(../../img/Me.png);
+     background-image: url(../img/me-2.png);
      position: relative;
 
 }
 
 .shadow {
-     background-image: url(../../img/Sombra.png);
+     background-image: url(../img/sombra-2.png);
      position: absolute;
      filter: blur(10px);
      transform: translate(6px, 24px);

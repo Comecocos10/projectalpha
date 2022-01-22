@@ -120,8 +120,8 @@
 }
 
 .image-header {
-  -webkit-transform: translate(-6px, 36px);
-          transform: translate(-6px, 36px);
+  -webkit-transform: translate(-15px, 36px);
+          transform: translate(-15px, 36px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -132,47 +132,53 @@
 
 @media (max-width: 400px) {
   .image-header {
-    -webkit-transform: translate(-24px, 42px);
-            transform: translate(-24px, 42px);
+    -webkit-transform: translate(-33px, 42px);
+            transform: translate(-33px, 42px);
+  }
+}
+@media (min-width: 600px) {
+  .image-header {
+    -webkit-transform: translate(-45px, 42px);
+            transform: translate(-45px, 42px);
   }
 }
 @media (min-width: 850px) {
   .image-header {
-    -webkit-transform: translate(6px, 46px);
-            transform: translate(6px, 46px);
+    -webkit-transform: translate(-45px, 46px);
+            transform: translate(-45px, 46px);
   }
 }
 @media (min-width: 1050px) {
   .image-header {
-    -webkit-transform: translate(18px, 60px);
-            transform: translate(18px, 60px);
+    -webkit-transform: translate(28px, 60px);
+            transform: translate(28px, 60px);
   }
 }
 .photo, .shadow {
-  width: 180px;
-  height: 390px;
+  width: 200px;
+  height: 412.06px;
   background-size: cover;
 }
 
 @media (min-width: 850px) {
   .photo, .shadow {
     width: 220px;
-    height: 482px;
+    height: 453.26px;
   }
 }
 @media (min-width: 1050px) {
   .photo, .shadow {
-    width: 230px;
-    height: 492px;
+    width: 270px;
+    height: 556.28px;
   }
 }
 .photo {
-  background-image: url(../../img/Me.png);
+  background-image: url(../img/me-2.png);
   position: relative;
 }
 
 .shadow {
-  background-image: url(../../img/Sombra.png);
+  background-image: url(../img/sombra-2.png);
   position: absolute;
   -webkit-filter: blur(10px);
           filter: blur(10px);
@@ -337,7 +343,7 @@ a:link {
 }
 
 .text-header {
-  padding: 0 0 0 18px;
+  padding: 0 0 0 36px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -350,6 +356,16 @@ a:link {
           justify-content: center;
 }
 
+@media (min-width: 360px) {
+  .text-header {
+    padding: 0 0 0 30px;
+  }
+}
+@media (min-width: 560px) {
+  .text-header {
+    padding: 0 0 0 18px;
+  }
+}
 @media (min-width: 850px) {
   .text-header {
     padding: 0 18px 0 50px;

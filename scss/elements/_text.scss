@@ -2,10 +2,20 @@
     //HEADER
 
     .text-header{
-        padding: 0 0 0 $space-little;
+        padding: 0 0 0 $space;
         display: flex;
         flex-direction: column;
         justify-content: center;
+    }
+    @media (min-width: 360px){
+        .text-header{
+            padding: 0 0 0 30px;
+        }
+    }
+    @media (min-width: 560px){
+        .text-header{
+            padding: 0 0 0 $space-little;
+        }
     }
     @media (min-width: 850px){
         .text-header{
