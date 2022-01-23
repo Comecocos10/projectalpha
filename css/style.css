@@ -396,6 +396,7 @@ a:link {
   font-weight: 400;
   min-width: 166px;
   max-width: 600px;
+  color: #252732;
 }
 
 .text-container {
@@ -407,6 +408,7 @@ a:link {
 .texts {
   font-size: 16px;
   font-weight: 400;
+  color: #252732;
 }
 
 .text-modal {
@@ -420,6 +422,7 @@ a:link {
   font-size: 22px;
   padding-bottom: 6px;
   padding-left: 3px;
+  color: #252732;
 }
 
 .text-top-contact {
@@ -455,7 +458,7 @@ a:link {
   padding: 6px;
 }
 
-t .text-footer {
+.text-footer {
   font-size: 16px;
   font-weight: 700;
   color: #727897;
@@ -1305,6 +1308,10 @@ body {
     padding: 6px 36px 36px 36px;
   }
 }
+.color-bg {
+  background-color: #F6F7FA;
+}
+
 header {
   margin-top: 6px;
 }
@@ -1765,5 +1772,119 @@ main {
 @media (min-width: 850px) {
   .rrss {
     margin-bottom: 48px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .color-bg {
+    background-color: #252732;
+  }
+
+  .cover-dm {
+    background-color: #727897;
+    -webkit-box-shadow: inset 1px 1px 3px #F6F7FA;
+            box-shadow: inset 1px 1px 3px #F6F7FA;
+  }
+
+  .button-vector {
+    background-color: #F0F1F4;
+    -webkit-box-shadow: 3px 0px 6px #F0F1F4;
+            box-shadow: 3px 0px 6px #F0F1F4;
+  }
+
+  .vector {
+    color: #727897;
+  }
+
+  .borders {
+    -webkit-box-shadow: 6px 6px 9px #F0F1F4;
+            box-shadow: 6px 6px 9px #F0F1F4;
+  }
+
+  .covers {
+    inset: 0;
+    background-color: #727897;
+  }
+
+  .insidebutton-contact {
+    background-color: #727897;
+  }
+
+  .border {
+    -webkit-box-shadow: 6px 6px 9px #F0F1F4;
+            box-shadow: 6px 6px 9px #F0F1F4;
+  }
+
+  .insta-c, .linke-c {
+    background-color: #727897;
+  }
+
+  .background {
+    background-color: #E8E9EE;
+  }
+
+  .modal-container {
+    background-color: #727897;
+  }
+
+  .insta-c, .linke-c {
+    background-color: #727897;
+  }
+
+  .h1 {
+    color: #F6F7FA;
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(6%, #FFEDC2), color-stop(#F7A1B5), color-stop(#4CFACC), to(#69D8E7));
+    background: linear-gradient(to bottom right, #FFEDC2 6%, #F7A1B5, #4CFACC, #69D8E7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .paragraph-header {
+    color: #F6F7FA;
+  }
+
+  .text-container {
+    color: #F0F1F4;
+  }
+
+  .texts {
+    color: #F0F1F4;
+  }
+
+  .text-modal {
+    color: #F0F1F4;
+  }
+
+  .text-skill-bar {
+    color: #F6F7FA;
+  }
+
+  .text-top-contact {
+    color: #F6F7FA;
+  }
+
+  .text-button {
+    color: #F6F7FA;
+  }
+
+  .text-title-contact {
+    color: #F6F7FA;
+  }
+
+  .text-contact {
+    color: #F6F7FA;
+  }
+
+  .message {
+    background-color: #ADB0C2;
+    color: #F0F1F4;
+  }
+
+  .email-message {
+    background-color: #ADB0C2;
+    color: #F0F1F4;
+  }
+
+  .text-rrss {
+    color: #F6F7FA;
   }
 }

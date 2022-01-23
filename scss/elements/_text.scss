@@ -49,6 +49,7 @@
         font-weight: $regular;
         min-width: 166px;
         max-width: 600px;
+        color: $black;
     }
 
     //MAIN
@@ -62,6 +63,7 @@
     .texts{
         font-size: $p-little;
         font-weight: $regular;
+        color: $black;
     }
 
     //MODAL
@@ -76,6 +78,7 @@
         font-size: $p-big;
         padding-bottom: $unit;
         padding-left: 3px;
+        color: $black;
     }
 
     //END-PAGE
@@ -114,7 +117,6 @@
         color: $black;
         padding: $unit;
     }
-t
     //FOOTER
     .text-footer{
         font-size: $p-little;

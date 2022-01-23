@@ -1,0 +1,86 @@
+@media (prefers-color-scheme: dark) {
+    .color-bg {
+    background-color: $black;
+    }
+    .cover-dm{
+        background-color: $gray-ultradark;
+        box-shadow: inset 1px 1px 3px $white;
+    }
+    .button-vector{
+        background-color: $gray-light;
+        box-shadow: 3px 0px 6px $gray-light;
+    }
+    .vector{
+        color: $gray-ultradark;
+    }
+    .borders{
+        box-shadow: 6px 6px 9px $gray-light;
+    }
+    .covers{
+        inset: 0;
+        background-color: $gray-ultradark;
+    }
+    .insidebutton-contact{
+        background-color: $gray-ultradark;
+    }
+    .border{
+        box-shadow: 6px 6px 9px $gray-light;
+    }
+    .insta-c, .linke-c{
+        background-color: $gray-ultradark;
+    }
+    .background{
+        background-color: $gray;
+    }
+    .modal-container{
+        background-color: $gray-ultradark;
+    }
+    .insta-c, .linke-c{
+        background-color: $gray-ultradark;
+    }
+    .h1 {
+        color: $white;
+        background: -webkit-linear-gradient(left top,#FFEDC2 6%, #F7A1B5, #4CFACC, #69D8E7);
+        background: linear-gradient(to bottom right, #FFEDC2 6%, #F7A1B5, #4CFACC, #69D8E7);
+        -webkit-background-clip: text;  
+        -webkit-text-fill-color: transparent; 
+    }
+    .paragraph-header{
+        color: $white;
+    }
+    .text-container {
+        color: $gray-light;
+    }
+    .texts{
+        color: $gray-light;
+    }
+    .text-modal{
+        color: $gray-light;
+    }
+    .text-skill-bar{
+        color: $white;
+    }
+    .text-top-contact{
+        color: $white;
+    }
+    .text-button{
+        color: $white
+    }
+    .text-title-contact{
+        color: $white;
+    }
+    .text-contact{
+        color: $white;
+    }
+    .message{
+        background-color: $gray-dark;
+        color: $gray-light;
+    }
+    .email-message{
+        background-color: $gray-dark;
+        color: $gray-light;
+    }
+    .text-rrss{
+        color: $white;
+    }
+}
