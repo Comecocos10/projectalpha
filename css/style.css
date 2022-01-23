@@ -115,7 +115,7 @@
       justify-self: center;
   height: 24px;
   width: 24px;
-  color: #ADB0C2;
+  color: #727897;
   margin-bottom: 1px;
 }
 
@@ -240,6 +240,7 @@
 .vectorsout {
   width: 54px;
   height: 54px;
+  color: #ADB0C2;
 }
 
 @media (min-width: 670px) {
@@ -266,6 +267,7 @@
 .vectors {
   width: 54px;
   height: 54px;
+  color: #727897;
 }
 
 .button-contact {
@@ -1433,11 +1435,6 @@ main {
   height: fit-content;
 }
 
-.modal-vector {
-  width: 60px;
-  height: 60px;
-}
-
 .skills-list {
   margin-top: 36px;
 }
@@ -1774,6 +1771,12 @@ main {
     margin-bottom: 48px;
   }
 }
+.vectors-contact {
+  width: 60px;
+  height: 60px;
+  color: #727897;
+}
+
 @media (prefers-color-scheme: dark) {
   .color-bg {
     background-color: #252732;
