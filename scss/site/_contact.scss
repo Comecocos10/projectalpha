@@ -12,7 +12,7 @@
         flex-wrap: wrap;
         margin-top: 30px;
         padding-top: 72px;
-        margin-bottom: 120px;
+        margin-bottom: 115px;
     }
 }
 @media (min-width: 1525px){
@@ -21,7 +21,7 @@
         align-items: center;
         flex-direction: row;
         flex-wrap: wrap;
-        margin-top: 90px;
+        margin-top: 60px;
         margin-bottom: 90px;
         margin-left: 90px;
         margin-right: 90px;
@@ -76,7 +76,7 @@
     }
     @media (min-width: 1525px){
         .formulario{
-            padding-top: 48px;
+            padding-top: $unit;
         }
     }
 

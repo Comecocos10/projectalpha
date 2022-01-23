@@ -2,6 +2,7 @@
     .color-bg {
     background-color: $black;
     }
+    //BUTTONS
     .cover-dm{
         background-color: $gray-ultradark;
         box-shadow: inset 1px 1px 3px $white;
@@ -9,9 +10,6 @@
     .button-vector{
         background-color: $gray-light;
         box-shadow: 3px 0px 6px $gray-light;
-    }
-    .vector{
-        color: $gray-ultradark;
     }
     .borders{
         box-shadow: 6px 6px 9px $gray-light;
@@ -32,12 +30,24 @@
     .background{
         background-color: $gray;
     }
+    //MODAL
     .modal-container{
         background-color: $gray-ultradark;
     }
-    .insta-c, .linke-c{
-        background-color: $gray-ultradark;
+    .skill-bar .skill-bar__interna-m {
+        background-image: $yellow-g-dark;
     }
+    .skill-bar .skill-bar__interna-c {
+        background-image: $red-g-dark;
+    }
+    .skill-bar .skill-bar__interna-t {
+        background-image: $green-g-dark;
+    }
+    .skill-bar .skill-bar__interna-s {
+        background-image: $blue-g-dark;
+    }
+
+    //TEXT
     .h1 {
         color: $white;
         background: -webkit-linear-gradient(left top,#FFEDC2 6%, #F7A1B5, #4CFACC, #69D8E7);
@@ -83,4 +93,5 @@
     .text-rrss{
         color: $white;
     }
+    
 }

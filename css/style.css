@@ -1595,7 +1595,7 @@ main {
         flex-wrap: wrap;
     margin-top: 30px;
     padding-top: 72px;
-    margin-bottom: 120px;
+    margin-bottom: 115px;
   }
 }
 @media (min-width: 1525px) {
@@ -1612,7 +1612,7 @@ main {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: 90px;
     margin-left: 90px;
     margin-right: 90px;
@@ -1679,7 +1679,7 @@ main {
 }
 @media (min-width: 1525px) {
   .formulario {
-    padding-top: 48px;
+    padding-top: 6px;
   }
 }
 .messageBox {
@@ -1791,10 +1791,6 @@ main {
             box-shadow: 3px 0px 6px #F0F1F4;
   }
 
-  .vector {
-    color: #727897;
-  }
-
   .borders {
     -webkit-box-shadow: 6px 6px 9px #F0F1F4;
             box-shadow: 6px 6px 9px #F0F1F4;
@@ -1826,8 +1822,24 @@ main {
     background-color: #727897;
   }
 
-  .insta-c, .linke-c {
-    background-color: #727897;
+  .skill-bar .skill-bar__interna-m {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #F5AB00), color-stop(60%, #FFCE5C), color-stop(80%, #FFEDC2), color-stop(90%, #FFF3D6), color-stop(99%, #727897));
+    background-image: linear-gradient(90deg, #F5AB00 20%, #FFCE5C 60%, #FFEDC2 80%, #FFF3D6 90%, #727897 99%);
+  }
+
+  .skill-bar .skill-bar__interna-c {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #BC1038), color-stop(60%, #EF436B), color-stop(80%, #F7A1B5), color-stop(90%, #FDE8ED), color-stop(99%, #727897));
+    background-image: linear-gradient(90deg, #BC1038 20%, #EF436B 60%, #F7A1B5 80%, #FDE8ED 90%, #727897 99%);
+  }
+
+  .skill-bar .skill-bar__interna-t {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #037758), color-stop(60%, #06DBA2), color-stop(80%, #4CFACC), color-stop(90%, #B0FDE8), color-stop(99%, #727897));
+    background-image: linear-gradient(90deg, #037758 20%, #06DBA2 60%, #4CFACC 80%, #B0FDE8 90%, #727897 99%);
+  }
+
+  .skill-bar .skill-bar__interna-s {
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #126773), color-stop(60%, #198F9F), color-stop(80%, #69D8E7), color-stop(90%, #C1EFF5), color-stop(99%, #727897));
+    background-image: linear-gradient(90deg, #126773 20%, #198F9F 60%, #69D8E7 80%, #C1EFF5 90%, #727897 99%);
   }
 
   .h1 {
