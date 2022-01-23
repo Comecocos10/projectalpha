@@ -7,6 +7,15 @@
         background-color: $gray-ultradark;
         box-shadow: inset 1px 1px 3px $white;
     }
+    .vector{
+        color: $gray-ultradark;
+    }
+    .sun{
+        display: inline;
+    }
+    .moon{
+        display: none;
+    }
     .button-vector{
         background-color: $gray-light;
         box-shadow: 3px 0px 6px $gray-light;
@@ -27,6 +36,9 @@
     .insta-c, .linke-c{
         background-color: $gray-ultradark;
     }
+    .vectors-contact{
+        color: $gray;
+    }
     .background{
         background-color: $gray;
     }
@@ -45,6 +57,9 @@
     }
     .skill-bar .skill-bar__interna-s {
         background-image: $blue-g-dark;
+    }
+    .vectors{
+        color: $gray-light;
     }
 
     //TEXT

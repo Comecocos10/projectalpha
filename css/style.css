@@ -115,8 +115,12 @@
       justify-self: center;
   height: 24px;
   width: 24px;
-  color: #727897;
+  color: #E8E9EE;
   margin-bottom: 1px;
+}
+
+.sun {
+  display: none;
 }
 
 .image-header {
@@ -594,6 +598,7 @@ a:link {
 .close {
   width: 30px;
   height: 30px;
+  color: #ADB0C2;
 }
 
 .skill-modal {
@@ -1788,6 +1793,18 @@ main {
             box-shadow: inset 1px 1px 3px #F6F7FA;
   }
 
+  .vector {
+    color: #727897;
+  }
+
+  .sun {
+    display: inline;
+  }
+
+  .moon {
+    display: none;
+  }
+
   .button-vector {
     background-color: #F0F1F4;
     -webkit-box-shadow: 3px 0px 6px #F0F1F4;
@@ -1817,6 +1834,10 @@ main {
     background-color: #727897;
   }
 
+  .vectors-contact {
+    color: #E8E9EE;
+  }
+
   .background {
     background-color: #E8E9EE;
   }
@@ -1843,6 +1864,10 @@ main {
   .skill-bar .skill-bar__interna-s {
     background-image: -webkit-gradient(linear, left top, right top, color-stop(20%, #126773), color-stop(60%, #198F9F), color-stop(80%, #69D8E7), color-stop(90%, #C1EFF5), color-stop(99%, #727897));
     background-image: linear-gradient(90deg, #126773 20%, #198F9F 60%, #69D8E7 80%, #C1EFF5 90%, #727897 99%);
+  }
+
+  .vectors {
+    color: #F0F1F4;
   }
 
   .h1 {
