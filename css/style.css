@@ -68,7 +68,7 @@
 }
 .border-dm, .cover-dm {
   height: 42px;
-  width: 96px;
+  width: 42px;
   border-radius: 24px;
 }
 
@@ -1509,12 +1509,7 @@ main {
   z-index: -2;
 }
 
-@media (min-width: 320px) {
-  .linea-vector {
-    min-width: 81vw;
-  }
-}
-@media (min-width: 410px) {
+@media (min-width: 300px) {
   .linea-vector {
     min-width: 82vw;
   }
@@ -1524,9 +1519,14 @@ main {
     min-width: 86vw;
   }
 }
+@media (min-width: 580px) {
+  .linea-vector {
+    min-width: 87vw;
+  }
+}
 @media (min-width: 670px) {
   .linea-vector {
-    min-width: 88vw;
+    min-width: 89vw;
   }
 }
 @media (min-width: 780px) {
