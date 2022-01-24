@@ -394,7 +394,7 @@ a:link {
 
 @media (min-width: 320px) {
   .text-header {
-    padding: 0 0 0 60px;
+    padding: 0 0 0 48px;
   }
 }
 @media (min-width: 380px) {
@@ -437,7 +437,7 @@ a:link {
 
 @media (max-width: 360px) {
   .paragraph-header {
-    width: 150px;
+    width: 170px;
   }
 }
 .text-container {
