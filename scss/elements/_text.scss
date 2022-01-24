@@ -7,9 +7,14 @@
         flex-direction: column;
         justify-content: center;
     }
+    @media (min-width: 250px){
+        .text-header{
+            padding: 0 0 0 120px;
+        }
+    }
     @media (min-width: 360px){
         .text-header{
-            padding: 0 0 0 30px;
+            padding: 0 0 0 78px;
         }
     }
     @media (min-width: 560px){

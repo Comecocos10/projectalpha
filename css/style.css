@@ -136,8 +136,8 @@
 
 @media (max-width: 400px) {
   .image-header {
-    -webkit-transform: translate(-30px, 42px);
-            transform: translate(-30px, 42px);
+    -webkit-transform: translate(-48px, 172px);
+            transform: translate(-48px, 172px);
   }
 }
 @media (min-width: 600px) {
@@ -362,9 +362,14 @@ a:link {
           justify-content: center;
 }
 
+@media (min-width: 250px) {
+  .text-header {
+    padding: 0 0 0 120px;
+  }
+}
 @media (min-width: 360px) {
   .text-header {
-    padding: 0 0 0 30px;
+    padding: 0 0 0 78px;
   }
 }
 @media (min-width: 560px) {
@@ -555,6 +560,11 @@ a:link {
     min-width: 81%;
   }
 }
+@media (max-height: 700px) {
+  .nineskills {
+    height: 602px;
+  }
+}
 .sevenskills {
   min-width: 87%;
   height: 660px;
@@ -617,6 +627,11 @@ a:link {
   padding-top: 12px;
 }
 
+@media (max-height: 700px) {
+  .tech {
+    padding-top: 3px;
+  }
+}
 .skill-bar {
   height: 18px;
   border-radius: 12px;

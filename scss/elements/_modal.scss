@@ -53,7 +53,6 @@
 .nineskills{
     min-width: 88%;
     height: 703px;
-
 }
 @media (min-width: 750px){
     .nineskills{
@@ -68,6 +67,11 @@
 @media (min-width: 1650px){
     .nineskills{
         min-width: 81%;
+    }
+}
+@media (max-height: 700px){
+    .nineskills{
+        height: 602px;
     }
 }
 
@@ -128,6 +132,11 @@
 
 .tech{
     padding-top: 12px;
+}
+@media (max-height: 700px){
+    .tech{
+        padding-top: 3px;
+    }
 }
 
 .skill-bar {
