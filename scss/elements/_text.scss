@@ -7,14 +7,15 @@
         flex-direction: column;
         justify-content: center;
     }
-    @media (min-width: 250px){
+    
+    @media (min-width: 320px){
         .text-header{
-            padding: 0 0 0 120px;
+            padding: 0 0 0 102px;
         }
     }
-    @media (min-width: 360px){
+    @media (min-width: 380px){
         .text-header{
-            padding: 0 0 0 78px;
+            padding: 0 0 0 42px;
         }
     }
     @media (min-width: 560px){
@@ -33,10 +34,6 @@
         }
     }
 
-    .h1, .paragraph-header{
-        height: auto;
-    }
-
     .h1 {
         font-size: $h1;
         font-weight: $bold;
@@ -52,9 +49,14 @@
         padding: $space-little $unit $space-little 0px;
         font-size: $p;
         font-weight: $regular;
-        min-width: 166px;
-        max-width: 600px;
         color: $black;
+        max-width: 660px;
+    }
+
+    @media (max-width: 380px){
+        .paragraph-header{
+            width: 150px;
+        }
     }
 
     //MAIN

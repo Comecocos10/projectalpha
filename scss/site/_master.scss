@@ -37,6 +37,9 @@ header{
         max-width: 100%;
     }
 
+.desktop{
+    padding-top: $space-big;
+}
 
 @media (min-width: 850px) {
     .desktop{
@@ -197,10 +200,11 @@ main{
     }
     @media (min-width: 1110px) {
         .linea-vector{
-            width: 31%; 
+            width: 35%; 
         }
     }
-    @media (min-width: 1300px) {
+    
+    @media (min-width: 1200px) {
         .linea-vector{
             width: 405px; 
         }
