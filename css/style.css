@@ -124,8 +124,8 @@
 }
 
 .image-header {
-  -webkit-transform: translate(-15px, 36px);
-          transform: translate(-15px, 36px);
+  -webkit-transform: translate(-9px, 36px);
+          transform: translate(-9px, 36px);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,8 +136,8 @@
 
 @media (max-width: 400px) {
   .image-header {
-    -webkit-transform: translate(-33px, 42px);
-            transform: translate(-33px, 42px);
+    -webkit-transform: translate(-30px, 42px);
+            transform: translate(-30px, 42px);
   }
 }
 @media (min-width: 600px) {
