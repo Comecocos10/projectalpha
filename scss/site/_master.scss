@@ -9,6 +9,7 @@ html  {
 
 body{
     overflow-x: hidden;
+    width: 100%;
 }
 
 .body-master{
@@ -156,7 +157,7 @@ main{
 
     .linea-vector{
         height: 5px;
-        min-width: 80vw;
+        width: 80%;
         margin: 0 12px 0 0;
         box-shadow: 3px 3px 6px rgb(37,39,50,50%);
         background-color: $gray-ultradark;
@@ -166,42 +167,42 @@ main{
     }
     @media (min-width: 300px) {
         .linea-vector{
-            min-width: 82vw; 
+            width: 88%; 
         }
     }
-    @media (min-width: 440px) {
+    @media (min-width: 490px) {
         .linea-vector{
-            min-width: 86vw; 
+            width: 91%; 
         }
     }
-    @media (min-width: 580px) {
+    @media (min-width: 550px) {
         .linea-vector{
-            min-width: 87vw; 
+            width: 94%; 
         }
     }
-    @media (min-width: 670px) {
+    @media (min-width: 770px) {
         .linea-vector{
-            min-width: 89vw; 
-        }
-    }
-    @media (min-width: 780px) {
-        .linea-vector{
-            min-width: 90vw; 
+            width: 95%; 
         }
     }
     @media (min-width: 850px) {
         .linea-vector{
-            min-width: 34vw; 
+            width: 35%; 
         }
     }
     @media (min-width: 880px) {
         .linea-vector{
-            min-width: 36vw; 
+            width: 37%; 
         }
     }
     @media (min-width: 1110px) {
         .linea-vector{
-            min-width: 395px; 
+            width: 31%; 
+        }
+    }
+    @media (min-width: 1300px) {
+        .linea-vector{
+            width: 405px; 
         }
     }
 

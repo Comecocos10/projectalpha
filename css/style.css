@@ -320,7 +320,7 @@ a:link {
 }
 
 .insta-b, .linke-b {
-  padding: 3px;
+  padding: 6px;
   background-image: -webkit-gradient(linear, left top, right top, color-stop(5%, #FFEDC2), color-stop(35%, #F7A1B5), color-stop(75%, #4CFACC), color-stop(90%, #69D8E7));
   background-image: linear-gradient(90deg, #FFEDC2 5%, #F7A1B5 35%, #4CFACC 75%, #69D8E7 90%);
   border-radius: 12px;
@@ -629,7 +629,7 @@ a:link {
 
 @media (max-height: 700px) {
   .tech {
-    padding-top: 3px;
+    padding-top: 5px;
   }
 }
 .skill-bar {
@@ -1290,6 +1290,7 @@ a:link {
       -ms-flex: -3;
           flex: -3;
   height: 46px;
+  width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   -webkit-box-align: center;
@@ -1319,6 +1320,7 @@ html {
 
 body {
   overflow-x: hidden;
+  width: 100%;
 }
 
 .body-master {
@@ -1498,7 +1500,7 @@ main {
 }
 .linea-vector {
   height: 5px;
-  min-width: 80vw;
+  width: 80%;
   margin: 0 12px 0 0;
   -webkit-box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
           box-shadow: 3px 3px 6px rgba(37, 39, 50, 0.5);
@@ -1511,42 +1513,42 @@ main {
 
 @media (min-width: 300px) {
   .linea-vector {
-    min-width: 82vw;
+    width: 88%;
   }
 }
-@media (min-width: 440px) {
+@media (min-width: 490px) {
   .linea-vector {
-    min-width: 86vw;
+    width: 91%;
   }
 }
-@media (min-width: 580px) {
+@media (min-width: 550px) {
   .linea-vector {
-    min-width: 87vw;
+    width: 94%;
   }
 }
-@media (min-width: 670px) {
+@media (min-width: 770px) {
   .linea-vector {
-    min-width: 89vw;
-  }
-}
-@media (min-width: 780px) {
-  .linea-vector {
-    min-width: 90vw;
+    width: 95%;
   }
 }
 @media (min-width: 850px) {
   .linea-vector {
-    min-width: 34vw;
+    width: 35%;
   }
 }
 @media (min-width: 880px) {
   .linea-vector {
-    min-width: 36vw;
+    width: 37%;
   }
 }
 @media (min-width: 1110px) {
   .linea-vector {
-    min-width: 395px;
+    width: 31%;
+  }
+}
+@media (min-width: 1300px) {
+  .linea-vector {
+    width: 405px;
   }
 }
 .pencil {
@@ -1578,6 +1580,10 @@ main {
           align-items: center;
   justify-items: center;
   margin-top: 48px;
+}
+
+.form-rrss {
+  padding-right: 12px;
 }
 
 .grid {
@@ -1781,7 +1787,7 @@ main {
 
 @media (min-width: 650px) {
   .rrss {
-    margin-right: 55px;
+    margin-right: 35px;
     -ms-flex-pack: distribute;
         justify-content: space-around;
   }
