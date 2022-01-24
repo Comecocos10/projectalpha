@@ -8,24 +8,29 @@
           transform: translate(-80px, 335px);
      }
 }
-@media (min-width: 390px){
+@media (min-width: 360px){
+    .image-header{
+          transform: translate(-36px, 235px);
+     }
+}
+@media (min-width: 380px){
      .image-header{
           transform: translate(-36px, 196px);
      }
 }
 @media (min-width: 450px){
      .image-header{
-          transform: translate(-12px, 106px);
+          transform: translate(-30px, 124px);
      }
 }
 @media (min-width: 600px){
      .image-header{
-          transform: translate(-36px, 48px);
+          transform: translate(-46px, 48px);
      }
 }
 @media (min-width: 850px){
      .image-header{
-          transform: translate(-45px, 46px);
+          transform: translate(-54px, 46px);
 
      }
 }
@@ -46,7 +51,7 @@
           height: 288.44px;
      }
 }
-@media (min-width: 390px){
+@media (min-width: 380px){
      .photo, .shadow{
           width: 180px;
           height: 370.85px;

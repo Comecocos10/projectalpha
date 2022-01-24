@@ -140,7 +140,13 @@
             transform: translate(-80px, 335px);
   }
 }
-@media (min-width: 390px) {
+@media (min-width: 360px) {
+  .image-header {
+    -webkit-transform: translate(-36px, 235px);
+            transform: translate(-36px, 235px);
+  }
+}
+@media (min-width: 380px) {
   .image-header {
     -webkit-transform: translate(-36px, 196px);
             transform: translate(-36px, 196px);
@@ -148,20 +154,20 @@
 }
 @media (min-width: 450px) {
   .image-header {
-    -webkit-transform: translate(-12px, 106px);
-            transform: translate(-12px, 106px);
+    -webkit-transform: translate(-30px, 124px);
+            transform: translate(-30px, 124px);
   }
 }
 @media (min-width: 600px) {
   .image-header {
-    -webkit-transform: translate(-36px, 48px);
-            transform: translate(-36px, 48px);
+    -webkit-transform: translate(-46px, 48px);
+            transform: translate(-46px, 48px);
   }
 }
 @media (min-width: 850px) {
   .image-header {
-    -webkit-transform: translate(-45px, 46px);
-            transform: translate(-45px, 46px);
+    -webkit-transform: translate(-54px, 46px);
+            transform: translate(-54px, 46px);
   }
 }
 @media (min-width: 1050px) {
@@ -182,7 +188,7 @@
     height: 288.44px;
   }
 }
-@media (min-width: 390px) {
+@media (min-width: 380px) {
   .photo, .shadow {
     width: 180px;
     height: 370.85px;
@@ -388,7 +394,7 @@ a:link {
 
 @media (min-width: 320px) {
   .text-header {
-    padding: 0 0 0 102px;
+    padding: 0 0 0 60px;
   }
 }
 @media (min-width: 380px) {
@@ -429,7 +435,7 @@ a:link {
   max-width: 660px;
 }
 
-@media (max-width: 380px) {
+@media (max-width: 360px) {
   .paragraph-header {
     width: 150px;
   }
