@@ -458,6 +458,13 @@ a:link {
   font-size: 30px;
 }
 
+@media (max-width: 380px) {
+  .text-modal {
+    font-weight: 700;
+    font-size: 26px;
+    padding: 12px;
+  }
+}
 .text-skill-bar {
   font-weight: 400;
   font-size: 22px;
@@ -571,7 +578,7 @@ a:link {
 }
 
 .nineskills {
-  min-width: 88%;
+  min-width: 86%;
   height: 703px;
 }
 
@@ -592,7 +599,7 @@ a:link {
 }
 @media (max-height: 700px) {
   .nineskills {
-    height: 612px;
+    height: 630px;
   }
 }
 .sevenskills {

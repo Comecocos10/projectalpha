@@ -79,6 +79,13 @@
         font-weight: $bold;
         font-size: $h3;
     }
+    @media (max-width: 380px){
+        .text-modal{
+            font-weight: $bold;
+            font-size: $h3-little;
+            padding: 12px;
+        }
+    }
 
     .text-skill-bar{
         font-weight: $regular;
