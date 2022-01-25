@@ -15,10 +15,6 @@ body{
     background-color: $white;
     }
 
-header{
-    margin-top: $unit;
-}
-
     //CONTENIDO HEADER//
     .tittle{
         display: flex;
@@ -79,10 +75,8 @@ main{
         padding-top: $space-little;
         display: flex;
         flex-wrap: wrap;
-        position: relative;
         justify-content: space-around;
     }
-
 
     .icons{
         display: flex;
@@ -108,8 +102,13 @@ main{
 //ENDPAGE//
 @media (min-width: 850px){
     .endpage{
-        width: 40vw;
+        width: 42vw;
         margin: $unit 0 $unit $space-big;
+    }
+}
+@media (min-width: 1050px){
+    .endpage{
+        width: 40vw;
     }
 }
 @media (min-width: 1110px){
@@ -145,7 +144,6 @@ main{
     .linea-vector{
         height: 5px;
         width: 80%;
-        margin: 0 12px 0 0;
         box-shadow: 3px 3px 6px rgb(37,39,50,50%);
         background-color: $gray-ultradark;
         position: absolute;
@@ -209,7 +207,6 @@ main{
         height: 48px;
         width: 48px;
     }
-
 
     //CONTACT//
     .part-contact{

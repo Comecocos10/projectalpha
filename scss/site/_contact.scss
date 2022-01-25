@@ -12,22 +12,14 @@
     align-items: center;
 }
 
-@media(min-height: 600px){
-    .grid{
-        margin-top: 120px;
-    }
-}
-
-@media (min-width: 1525px){
+@media (min-width: 1360px){
     .grid{
         justify-content: space-between;
         flex-direction: row;
         flex-wrap: wrap;
         margin-left: 90px;
+        margin-top: 180px;
     }
-}
-.form-rrss{
-    padding-right: 12px;
 }
 .s-contact{
     padding: $unit;
@@ -53,7 +45,7 @@
     .text-header-contact{
         display: flex;
         flex-direction: column;
-        padding: $space-little 12px 0 12px;
+        padding: 12px 12px 0 12px;
         align-items: center;
         flex-wrap: wrap;
     }

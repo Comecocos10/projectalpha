@@ -8,31 +8,6 @@
         justify-content: center;
     }
     
-    @media (min-width: 320px){
-        .text-header{
-            padding: 0 0 0 48px;
-        }
-    }
-    @media (min-width: 380px){
-        .text-header{
-            padding: 0 0 0 42px;
-        }
-    }
-    @media (min-width: 560px){
-        .text-header{
-            padding: 0 0 0 $space-little;
-        }
-    }
-    @media (min-width: 850px){
-        .text-header{
-            padding: 0 $space-little 0 50px;
-        }
-    }
-    @media (min-width: 1600px){
-        .text-header{
-            padding: 0 $space-little 0 $unit;
-        }
-    }
 
     .h1 {
         font-size: $h1;
