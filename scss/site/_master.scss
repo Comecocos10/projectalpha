@@ -9,16 +9,6 @@ html  {
 
 body{
     overflow-x: hidden;
-    width: 100%;
-}
-
-.body-master{
-    padding: $unit;
-}
-@media (min-width: 1200px) {
-    .body-master{
-        padding: $unit $space $space $space;
-    } 
 }
 
 .color-bg {
@@ -33,13 +23,7 @@ header{
     .tittle{
         display: flex;
         justify-content: center;
-        min-width: 100%;
-        max-width: 100%;
     }
-
-.desktop{
-    padding-top: $space-big;
-}
 
 @media (min-width: 850px) {
     .desktop{
