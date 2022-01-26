@@ -136,8 +136,8 @@
 }
 @media (min-width: 575px) {
   .image-header {
-    -webkit-transform: translate(-30px, 48px);
-            transform: translate(-30px, 48px);
+    -webkit-transform: translate(-10px, 48px);
+            transform: translate(-10px, 48px);
   }
 }
 .photo, .shadow {
@@ -371,7 +371,7 @@ a:link {
   font-size: 18px;
   font-weight: 400;
   color: #252732;
-  max-width: 660px;
+  max-width: 600px;
 }
 
 @media (max-width: 360px) {
